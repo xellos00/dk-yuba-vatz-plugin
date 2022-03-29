@@ -1,0 +1,8 @@
+---
+plugins_info:
+  plugin_name: "vatz-plugin-near-monitoring"
+  plugin_port: 9091
+  default_interval: 30
+  executable_apis:
+    - method_name: "is_service_up"
+      api_interval: 45
